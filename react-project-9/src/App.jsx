@@ -31,7 +31,7 @@ function App() {
       <ThemeContext.Provider value={{theme, setTheme}}>
         <div id='container' style={{backgroundColor:theme === 'light' ? "beige" : "black"}}>
           <ChildA/>
-      </div>
+        </div>
       </ThemeContext.Provider>
   )
 }

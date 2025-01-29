@@ -11,7 +11,7 @@ function App() {
   // Always use it on top of the component (mtlb shurwat m hi before return)
 
   // first -> side-eff function (aap side-eff ke roop m kya action perform krna chahte ho ex-> calling an api)
-  // second -> it's ca clean-up function (koi comp. UI se hat gya i.e. UNMOUNT hogya uska particular event listner  hatne ke kaam wo cleaning up ka kaam yha hota h ) SEE VAR. 5 
+  // second -> it's ca clean-up function (koi comp. UI se hat gya i.e. UNMOUNT hogya uska particular event listner hatne ke kaam wo cleaning up ka kaam yha hota h ) SEE VAR. 5 
   // third -> comma septd dependency list we write some entites jiske basis pe sideeffect run hota h (unn entites ke updation pe sideeffect run hoga)
 
   // there r 4 var's of using useEff
